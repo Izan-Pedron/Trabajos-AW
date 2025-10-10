@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Izan pedron">
+        <meta name="description" content="Página de ejemplo con estructura HTML completa">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="imagenes/mi pagina.png" type="image/png">
+        <title>Trabajos con IA en HTML</title>
+    </head>
+    <body>
+        <h2>Presentación Formal</h2>
+        <p><blockquote>Nuestra empresa se dedica a proporcionar soluciones innovadoras y personalizadas para satisfacer las necesidades de nuestros clientes. <br> Nos comprometemos con la excelencia y la satisfacción total.</blockquote></p>
+
+        <h2>Presentación Divertida</h2>
+        <p><blockquote>¡Prepárate para una experiencia única! <br> Somos el equipo que transforma ideas locas en proyectos increíbles. ¡La diversión está garantizada!</blockquote></p>
+        <figure>
+        <img src="https://picsum.photos/1200/600" alt="Imagen sugerida - oficina moderna" />
+    <figcaption>
+        Imagen sugerida (libre de derechos de ejemplo)
+    </figcaption>
+        </figure>
+   <main>
+    <section>
+      <h2>Bienvenido</h2>
+      <p>Este es un ejemplo de página HTML sencilla y correctamente estructurada.</p>
+    </section>
+
+    <article>
+      <h3>Más información</h3>
+      <p>Puedes visitar <a href="https://www.w3schools.com/html/">W3Schools</a> o <a href="https://developer.mozilla.org/es/docs/Web/HTML">MDN</a> para aprender más sobre HTML.</p>
+    </article>
+  </main>
+   <form action="#" method="post">
+    <!-- Nombre completo -->
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required
+           pattern="^[A-Za-zÁÉÍÓÚáéíóúÑñ ]{3,40}$"
+           title="Solo letras y espacios, entre 3 y 40 caracteres.">
+    <br><br>
+
+    <!-- Correo electrónico -->
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required
+           pattern="^[\\w._%+-]+@[\\w.-]+\\.[A-Za-z]{2,}$"
+           title="Introduce un correo electrónico válido (ejemplo@dominio.com)">
+    <br><br>
+
+    <!-- Contraseña -->
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password" required
+           pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$"
+           title="Mínimo 8 caracteres, una mayúscula, una minúscula, un número y un símbolo.">
+    <br><br>
+
+    <!-- Confirmación de contraseña -->
+    <label for="confirmar">Confirmar contraseña:</label>
+    <input type="password" id="confirmar" name="confirmar" required>
+    <br><br>
+
+    <!-- País -->
+    <label for="pais">País:</label>
+    <select id="pais" name="pais" required>
+      <option value="">Selecciona tu país</option>
+      <option value="es">España</option>
+      <option value="mx">México</option>
+      <option value="ar">Argentina</option>
+      <option value="cl">Chile</option>
+    </select>
+    <br><br>
+
+    <!-- Teléfono -->
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono"
+           pattern="^\\+?\\d{9,15}$"
+           title="Número de teléfono válido (puede incluir + y entre 9 y 15 dígitos).">
+    <br><br>
+
+    <!-- Aceptar términos -->
+    <label>
+      <input type="checkbox" required> Acepto los términos y condiciones
+    </label>
+    <br><br>
+
+    <main>
+    <section>
+      <h2>Lista de curiosidades</h2>
+      <ul>
+        <li>El primer virus informático se creó en 1986 y se llamaba <strong>Brain</strong>.</li>
+        <li>El término “hacker” originalmente no era negativo; se refería a programadores expertos en resolver problemas.</li>
+        <li>Más del 90% de los ataques comienzan con un <em>phishing</em> o correo falso.</li>
+        <li>Las contraseñas más usadas siguen siendo “123456” y “password”.</li>
+        <li>El ataque de ransomware más grande fue <strong>WannaCry</strong> en 2017, afectando a más de 150 países.</li>
+        <li>En promedio, una empresa tarda 200 días en detectar una brecha de seguridad.</li>
+        <li>Existen “honeypots”: sistemas trampa usados para atraer y analizar atacantes.</li>
+        <li>Los ciberataques cuestan a las empresas billones de dólares al año.</li>
+        <li>El primer ataque de denegación de servicio (DDoS) se registró en 2000, causado por un estudiante de 15 años.</li>
+        <li>El sector de ciberseguridad crece un 10% anual debido al aumento de amenazas digitales.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Fuentes de información</h2>
+      <ol>
+        <li><a href="https://www.kaspersky.com/resource-center/threats" target="_blank">Kaspersky Resource Center</a></li>
+        <li><a href="https://www.ibm.com/reports/cost-of-a-data-breach" target="_blank">IBM Cost of a Data Breach Report</a></li>
+        <li><a href="https://www.cisa.gov/" target="_blank">CISA (Cybersecurity & Infrastructure Security Agency)</a></li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Tabla de datos curiosos</h2>
+      <table border="1">
+        <caption>Comparativa de ataques y costes estimados</caption>
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Tipo de ataque</th>
+            <th>Impacto económico (USD)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1986</td>
+            <td>Virus Brain</td>
+            <td>Desconocido</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>Ransomware WannaCry</td>
+            <td>≈ 4.000 millones</td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>Colonial Pipeline (EE.UU.)</td>
+            <td>≈ 5 millones en rescate</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Fuente: informes públicos de seguridad y análisis de mercado.</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </main>
+   <img src="imagenes/mi pagina.png" alt="Imagen de mi pagina web" width="400">
+   <!--La función alt es importante tanto para la gente con discapacidad visual entienda lo que hay ahí, 
+   para el resto de personas si la imagen no se carga , para el propio SEO y para los desarroladores 
+   que modifiquen la pagina entiendan que hay ahi-->
+
+  <footer>
+    <p>© 2025 Mi sitio web con IA</p>
+  </footer>
+   
+    </body>
+
+</html>
