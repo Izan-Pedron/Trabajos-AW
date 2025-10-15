@@ -16,19 +16,49 @@
         <a href="index.html">Visita nuestra pagina</a>
         <h2>Pon Aqui tu información</h2>
         <form action="#" method="post">
+        <fielset>
+            <legend>Datos personales</legend>
             <label for="nombre">Nombre y apellidos</label> 
             <input type="text" id="nombre" name="nombre" required maxlength="55">
             <br> <br>
           <label for="correo">Dirección de correo electrónico</label>
             <input type="email" id="correo" name="correo" required maxlength="70">
+        </fielset>
             <br> <br>
-            <label for="asunto">Asunto del mensaje</label>
-            <input type="text" id="asunto" name="asunto" required maxlength="20">
-            <br> <br>
+        <fieldset>
+            <legend>Mensaje</legend>
+            <select name="asunto" size="5" required>
+                <option value="Problema">Probelma con la pagina</option>
+                <option value="info">Información sobre la pagina</option>
+                <option value="consulta">Tengo una consulta sobre un jeugo</option>
+                <option value="error">Hay un error de información</option>
+                <option value="trabajo">Quiero trabajar para la pagina</option>
+            </select>
             <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" name="mensaje" rows="5" required maxlength="500"></textarea> 
+            <textarea id="mensaje" name="mensaje" rows="5" required maxlength="500"></textarea>
+            </fieldset>
             <br> <br>
-            <button type="submit">Enviar</button>
+            <label>puntue su experiencia en la pagina</label>
+            <br><br>
+            <input type="radio" name="puntuacion" id="mal" value="mal">
+            <label for="mal"> Experiencia muy mala</label>
+            <br><br>
+            <input type="radio" name="puntuacion" id="regular" value="regular">
+            <label for="regular">Experiencia regular</label>
+            <br><br>
+            <input type="radio" name="puntuacion" id="bien" value="bien">
+            <label for="bien">Experiencia buena</label>
+            <br><br>
+            <input type="radio" name="puntuacion" id="muy" value="muy">
+            <label for="muy">Experiencia muy buena la visitare de vez en cuando</label>
+            <br><br>
+            <input type="radio" name="puntuacion" id="excelente" value="excelente">
+            <label for="excelente">Experiencia increible la visitare de vez en cuando y la voy a recomendar</label>
+            <br><br>
+            <input type="checkbox" name="suscripcion" id="suscripcion">
+            <label for="suscripcion">Quires recibir noricias sobre videjuegos></label>
+            <br><br>
+            <button type="submit" required>Enviar</button>
         </form>
         <br>
         <h2>Visita nuestras oficinas</h2>
@@ -42,6 +72,7 @@
          <footer>® 2025 El mundo de los videjugos</footer>
 
     </body>
+
 
 
 
