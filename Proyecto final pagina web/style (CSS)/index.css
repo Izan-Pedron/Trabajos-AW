@@ -1,0 +1,125 @@
+@font-face {
+    font-family: FuenteRobot;
+    src: url(../fuentes/BitcountGridSingle-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: FuenteTitulos;
+    src: url(../fuentes/Exo-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: FuenteApartados;
+    src: url(../fuentes/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf);
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    font-family: FuenteRobot;
+    font-size: x-large;
+    color: rgb(5, 178, 184);
+    text-align: justify;
+}
+
+h2 {
+    font-family: FuenteApartados;
+    font-size: 20pt;
+    color: rgb(50, 133, 220);
+    text-align: justify;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: justify;
+}
+
+.Titulo {
+  color: rgb(243, 33, 33);            
+  font-size: 15pt;              
+  font-family: FuenteTitulos;
+}
+
+.enlaces {
+    color: white;            
+    font-size: 15pt;              
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.enlacesInt {
+    color: white;            
+    font-size: 12pt;              
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Doctor {
+    color:#1638e3;            
+    font-size: 12pt;              
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.juegos {
+    color:white;            
+    font-size: 12pt;              
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+thead {
+    background-color: #1E2A47;
+}
+
+thead th {
+    color: #1638e3;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    font-size: 1rem;
+}
+td {
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #1638e3;
+}
+#raiders {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: azure;
+    border: 5pt solid #FF7A00; 
+    border-radius: 10px;       
+    padding: 20px;
+     display: block;      
+}
+
+#battlefield {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: azure;
+    border: 5pt solid #0c4d07; 
+    border-radius: 10px;       
+    padding: 20px;
+    display: block;        
+}
+
+
+#silksong {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: azure;
+    border: 5pt solid #0d31a8; 
+    border-radius: 10px;       
+    padding: 10pt;
+    display: block;      
+}
+
+
+#Comienzo iframe {
+    width: 30%;
+    height: 315px;
+    border: 3pt rgb(243, 180, 33);
+    border-radius: 30px;
+}
