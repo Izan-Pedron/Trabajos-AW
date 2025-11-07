@@ -1,0 +1,33 @@
+@font-face {
+    font-family: FuenteRobot;
+    src: url(fuentes/BitcountGridSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf);
+}
+
+
+header {
+    background-color: aquamarine;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    color: red;
+    text-decoration: underline;
+    
+}
+
+h2 {
+    font-family: FuenteRobot;
+    color: blue;
+    font-size: 20pt;
+    text-align: right;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    color: grey;
+    text-align: justify;
+    line-height: 1.5em;
+}

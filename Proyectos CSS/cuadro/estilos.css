@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  background-color: #fff; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 0 20px 0;
+}
+
+
+.contenedor {
+  display: flex;
+  background-color: #7b0f1b; 
+  padding: 20px;
+  gap: 20px;
+  width: fit-content;
+}
+
+
+.izquierda {
+  background-color: #777;
+  width: 200px;
+  aspect-ratio: 1 / 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.derecha {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.rectangulo-arriba {
+  background-color: #777;
+  height: 100px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.rectangulos-abajo {
+  display: flex;
+  gap: 20px;
+  width: 300px;
+}
+
+.rectangulo-izq {
+  background-color: #777;
+  flex: 7; 
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.rectangulo-der {
+  background-color: #777;
+  flex: 3; 
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
