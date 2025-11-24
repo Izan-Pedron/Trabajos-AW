@@ -1,0 +1,26 @@
+#contenedor {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  #contenedor {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "c1 c1"
+      "c2 c3"
+      "c4 c4";
+  }
+
+  #introduccion { grid-area: c1; }
+  #adaptativo   { grid-area: c2; }
+  #responsive   { grid-area: c3; }
+  #conclusion   { grid-area: c4; }
+}
+
+@media (min-width: 993px) {
+  #contenedor {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
