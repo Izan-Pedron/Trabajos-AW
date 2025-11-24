@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 30px;
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+
+.caja {
+  border: 2px solid #6a00ff;
+  border-radius: 8px;
+  background-color: white;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  padding: 20px;
+  width: 90%;
+}
+
+
+h2 {
+  margin: 0 0 10px 0;
+  color: black;
+}
+
+p {
+  margin: 6px 0;
+}
+
+
+.precio {
+  color: #6a00ff;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.gratis {
+  color: blue;
+}
+
+.oferta {
+  background-color: #6a00ff;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  font-size: 0.95em;
+  width: 98%;
+  margin: auto;
+}
+
+em {
+  font-style: italic;
+}

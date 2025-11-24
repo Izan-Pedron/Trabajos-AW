@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #84250C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+main {
+    margin-top: 150px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#bienvenida {
+    margin-bottom: 30px;
+}
+
+#bienvenida h2 {
+    margin-bottom: 10px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;  
+}
+
+#oferta {
+    border: 1px solid #000;
+    padding: 15px;
+    flex: 1;
+    border-radius: 10pt;
+}
+ 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #84250C;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
