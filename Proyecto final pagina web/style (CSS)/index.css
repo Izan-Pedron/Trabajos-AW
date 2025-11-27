@@ -87,7 +87,7 @@ td {
     font-size: 0.95rem;
     color: #1638e3;
 }
-#raiders {
+#raiders * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
     color: azure;
@@ -99,7 +99,7 @@ td {
     margin-bottom: 20px;
 }
 
-#battlefield {
+#battlefield * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
     color: azure;
@@ -112,7 +112,7 @@ td {
 }
 
 
-#silksong {
+#silksong * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
     color: azure;
@@ -131,4 +131,5 @@ td {
     border: 3pt rgb(243, 180, 33);
     border-radius: 30px;
 }
+
 
