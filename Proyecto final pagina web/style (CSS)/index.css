@@ -95,7 +95,8 @@ td {
     border-radius: 10px;       
     padding: 20px;
     display: flex;
-    display: block;      
+    display: block;
+    margin-bottom: 20px;
 }
 
 #battlefield {
@@ -106,7 +107,8 @@ td {
     border-radius: 10px;       
     padding: 20px;
     display: flex;
-    display: block;        
+    display: block;
+    margin-bottom: 20px;
 }
 
 
@@ -118,7 +120,8 @@ td {
     border-radius: 10px;       
     padding: 10pt;
     display: flex;
-    display: block;      
+    display: block;
+    margin-bottom: 20px;
 }
 
 
@@ -128,3 +131,4 @@ td {
     border: 3pt rgb(243, 180, 33);
     border-radius: 30px;
 }
+
