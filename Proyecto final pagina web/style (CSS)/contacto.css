@@ -19,8 +19,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 10%;
     margin-right: 15%;
-    max-width: 900px; 
-    margin: 0 auto;   
+    max-width: 900px;  
 }
 
 header {
@@ -55,8 +54,7 @@ legend {
     font-family: FuenteTitulos;
 }
 
-table {
-    margin: 0 auto;      
+table {      
     display: table;      
 }
 
@@ -64,7 +62,6 @@ table {
     color: white;            
     font-size: 15pt;              
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    transition: 0.3s ease; 
 }
 
 .enlaces:hover { 
@@ -156,4 +153,5 @@ button {
 button:hover {
     background-color: rgb(200, 20, 20);
     box-shadow: 0 0 10px rgb(243, 33, 33);
+
 }
