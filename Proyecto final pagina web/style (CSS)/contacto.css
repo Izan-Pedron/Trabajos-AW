@@ -85,12 +85,10 @@ input, textarea, select {
     padding: 8px;
     border-radius: 6px;
     border: 2px solid rgb(243, 33, 33);
-    background-color: #111;
     color: white;
 }
 
 input:focus, textarea:focus, select:focus {
-    outline: none;
     border-color: rgb(5, 178, 184);
     box-shadow: 0 0 8px rgb(5, 178, 184);
 }
@@ -121,7 +119,6 @@ strong {
 }
 
 iframe {
-  display: block;
   border: 5pt solid rgb(243, 180, 33);
   border-radius: 15pt;
   width: 100%;         
@@ -144,10 +141,8 @@ button {
     padding: 10px 20px;
     background-color: rgb(243, 33, 33);
     color: white;
-    border: none;
     border-radius: 8px;
     font-family: FuenteTitulos;
-    cursor: pointer;
 }
 
 button:hover {
@@ -155,3 +150,4 @@ button:hover {
     box-shadow: 0 0 10px rgb(243, 33, 33);
 
 }
+
