@@ -1,44 +1,87 @@
+
 @font-face {
     font-family: FuenteRobot;
     src: url(../fuentes/BitcountGridSingle-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf);
 }
 
+@font-face {
+    font-family: FuenteApartados;
+    src: url(../fuentes/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf);
+}
+
+@font-face {
+    font-family: FuenteTitulos;
+    src: url(../fuentes/Exo-VariableFont_wght.ttf);
+}
+
 body {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 10%;
-    margin-right: 15%;
+    background-color: black;
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     font-family: FuenteRobot;
-    font-size: x-large;
     color: rgb(5, 178, 184);
-    text-align: justify;
+    text-align: center;
 }
 
-.enlaces {
-    color: white;            
-    font-size: 15pt;              
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.info {
-    color: white;            
-    font-size: 15pt;              
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+h1, h3 {
+    font-family: FuenteTitulos;
+    color: rgb(243, 33, 33);
+    text-align: center;
 }
 
 h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20pt;
-    color: rgb(27, 118, 215);
+    font-family: FuenteApartados;
+    color: rgb(50, 133, 220);
+    text-align: center;
+}
+
+.enlaces {
+    color: white;
+    font-size: 14pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.enlaces:hover {
+    color: rgb(243, 33, 33);
+    text-shadow: 0 0 5px rgb(243, 33, 33);
+}
+
+
+p {
+    font-size: 12pt;
     text-align: justify;
 }
 
-p {
+
+.intro {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 14pt;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
     text-align: justify;
+    color: white;
+}
+
+
+article {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    border-top: 2px solid rgb(243, 33, 33);
+    font-family: FuenteRobot;
 }
