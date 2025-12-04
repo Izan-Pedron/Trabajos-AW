@@ -21,7 +21,6 @@ body {
     margin-left: 10%;
     margin-right: 15%;
     max-width: 900px;
-    margin: 0 auto;
 }
 
 header {
@@ -34,7 +33,6 @@ header {
 img[alt="Logo de la pagina"] {
     width: 100%;        
     display: block;
-    margin: 0 auto;
 }
 
 h2 {
@@ -178,8 +176,6 @@ button {
     border: none;
     border-radius: 8px;
     font-family: FuenteTitulos;
-    cursor: pointer;
-    transition: 0.3s ease;
 }
 
 button:hover {
@@ -194,4 +190,5 @@ button:hover {
     border-radius: 30px;      
     display: block;
     margin: 20px 0;
+
 }
