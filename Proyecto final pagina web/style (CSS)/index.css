@@ -36,37 +36,56 @@ img[alt="Logo de la pagina"] {
 }
 
 
-nav ul {
-    padding: 0;
-    margin: 20px 0;
-    list-style: none;
-    background: rgba(255, 255, 255, 0.05); 
-    border: 2px solid rgb(243, 33, 33);     
-    border-radius: 12px;                    
-    padding: 10px 15px;                     
-    display: inline-block;                  
+#Paginas {
+  background: rgb(34, 34, 34);   
+  border: 2px solid rgb(220, 20, 60); 
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#Paginas a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-right: 15px;
 }
 
 
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
+h2 {
+  text-align: center;
+  margin: 20px 0;
+  color: rgb(240, 240, 240);
 }
 
 
-nav ul li a {
-    text-decoration: none;
-    padding: 6px 10px;
-    border-radius: 6px;
-    transition: 0.2s ease;
+#Contenido {
+  background: rgb(26, 26, 26);   
+  border: 2px solid rgb(220, 20, 60);
+  padding: 15px;
+  list-style: none;
+}
+
+#Contenido li {
+  margin: 8px 0;
+}
+
+#Contenido a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 
-nav ul li a:hover {
-    background: rgb(243, 33, 33);
-    color: black;
+#Juegos {
+  background: rgb(42, 42, 42);   
+  border: 1px dashed rgb(220, 20, 60);
+  padding: 10px;
+  margin-top: 10px;
+  list-style: none;
 }
 
+#Juegos a {
+  color: rgb(204, 204, 204);     
+  text-decoration: none;
+}
 
 
 h2 {
@@ -231,6 +250,7 @@ button:hover {
     margin: 20px 0;
 
 }
+
 
 
 
