@@ -35,6 +35,34 @@ img[alt="Logo de la pagina"] {
     display: block;
 }
 
+/* ===== MENÚ SUPERIOR (primer nav) ===== */
+nav > li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+nav ul > li {
+    display: inline-block;
+    margin-right: 25px;
+    position: relative;
+}
+
+nav ul li ul {
+    position: absolute;
+    background: black;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+    padding: 5px 10px;
+}
+
+
 h2 {
     font-family: FuenteApartados;
     font-size: 20pt;
@@ -192,3 +220,4 @@ button:hover {
     margin: 20px 0;
 
 }
+
