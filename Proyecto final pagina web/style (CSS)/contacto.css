@@ -36,6 +36,35 @@ h2 {
     color: rgb(50, 133, 220);
 }
 
+/* MENÚ ESTILO RECUADRO — igual que el otro */
+nav ul {
+    list-style: none;
+    padding: 10px 15px;
+    margin: 20px 0;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgb(243, 33, 33);
+    border-radius: 12px;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: 0.2s ease;
+}
+
+nav ul li a:hover {
+    background: rgb(243, 33, 33);
+    color: black;
+}
+
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
@@ -155,5 +184,6 @@ button:hover {
     box-shadow: 0 0 10px rgb(243, 33, 33);
 
 }
+
 
 
