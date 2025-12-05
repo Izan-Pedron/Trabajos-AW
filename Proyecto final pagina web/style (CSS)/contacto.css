@@ -54,6 +54,11 @@ legend {
     font-family: FuenteTitulos;
 }
 
+#asunto {
+  background-color: black; 
+  color: white;          
+}
+
 table {      
     display: table;      
 }
@@ -150,4 +155,5 @@ button:hover {
     box-shadow: 0 0 10px rgb(243, 33, 33);
 
 }
+
 
