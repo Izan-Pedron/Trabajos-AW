@@ -36,7 +36,6 @@ h2 {
     color: rgb(50, 133, 220);
 }
 
-/* MENÚ ESTILO RECUADRO — igual que el otro */
 nav ul {
     list-style: none;
     padding: 10px 15px;
@@ -184,6 +183,7 @@ button:hover {
     box-shadow: 0 0 10px rgb(243, 33, 33);
 
 }
+
 
 
 
