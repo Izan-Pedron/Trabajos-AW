@@ -37,10 +37,11 @@ img[alt="Logo de la pagina"] {
 
 
 #Paginas {
-  background: rgb(34, 34, 34);   
-  border: 2px solid rgb(220, 20, 60); 
+  background: rgb(0, 0, 0);   
+  border: 4px solid red;
   padding: 10px;
   margin-bottom: 20px;
+  list-style: none;
 }
 
 #Paginas a {
@@ -75,8 +76,8 @@ h2 {
 
 
 #Juegos {
-  background: rgb(42, 42, 42);   
-  border: 1px dashed rgb(220, 20, 60);
+  background: rgb(0, 0, 0);   
+  border: 2px dashed rgb(220, 20, 60);
   padding: 10px;
   margin-top: 10px;
   list-style: none;
@@ -250,6 +251,7 @@ button:hover {
     margin: 20px 0;
 
 }
+
 
 
 
