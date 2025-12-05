@@ -107,6 +107,11 @@ p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.enlancesInt:hover {
+    color: rgb(0, 0, 139)
+    text-shadow: 0 0 5px rgb(0, 0, 139);
+}
+
 .Doctor {
     color:#1638e3;            
     font-size: 12pt;              
@@ -226,5 +231,6 @@ button:hover {
     margin: 20px 0;
 
 }
+
 
 
