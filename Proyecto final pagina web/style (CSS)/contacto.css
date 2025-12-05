@@ -36,33 +36,18 @@ h2 {
     color: rgb(50, 133, 220);
 }
 
-nav ul {
-    list-style: none;
-    padding: 10px 15px;
-    margin: 20px 0;
-    background: rgba(255, 255, 255, 0.05);
-    border: 2px solid rgb(243, 33, 33);
-    border-radius: 12px;
-    display: inline-block;
+#Paginas {
+  background: rgb(34, 34, 34);   /* #222 */
+  border: 2px solid rgb(220, 20, 60); /* crimson */
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
+#Paginas a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-right: 15px;
 }
-
-nav ul li a {
-    text-decoration: none;
-    padding: 6px 10px;
-    border-radius: 6px;
-    transition: 0.2s ease;
-}
-
-nav ul li a:hover {
-    background: rgb(243, 33, 33);
-    color: black;
-}
-
 
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -183,6 +168,7 @@ button:hover {
     box-shadow: 0 0 10px rgb(243, 33, 33);
 
 }
+
 
 
 
