@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicios pre-examen</title>
+    </head>
+
+    <body>
+        <h2>Cambia la web de color</h2>
+
+        <select id="selectColor">
+            <option value="whitesmoke">Blanco</option>
+            <option value="aqua">Azul</option>
+            <option value="greenyellow">Verde</option>
+            <option value="red">Rojo</option>
+            <option value="yellow">Amarillo</option>
+        </select>
+
+        <button id="btnCambiar">Cambia el color</button>
+
+        <script>
+            const cambio = document.getElementById ("btnCambiar");
+            const color = document.getElementById ("selectColor");
+
+            cambio.addEventListener("click", function(){
+                const colorSeleccionFondo = color.value;
+                document.body.style.backgroundColor = colorSeleccionFondo;
+            });
+            
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicios pre-examen</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h2>Validar campo de texto</h2>
+        <p id="mensaje"></p>
+        <label>
+            Nombre:
+            <input type="text" id="nombre">
+        </label>
+        <button id="btnComprobarVacio">Comprueba si vacia</button>
+
+
+        <script>
+                const nombre = document.getElementById("nombre");
+                const btnComprobarVacio = document.getElementById("btnComprobarVacio");
+                const mensaje = document.getElementById("mensaje");
+
+                btnComprobarVacio.addEventListener("click", function () {
+                    mensaje.classList.remove("valido", "no_valido");
+
+                    const texto = nombre.value.trim();
+
+                    if (texto.length < 3) {
+                        mensaje.textContent = "El campo está vacío o tiene pocos caracteres.";
+                        mensaje.classList.add("no_valido");
+                    } else {
+                        mensaje.textContent = "Válido";
+                        mensaje.classList.add("valido");
+                    }
+                         });
+        </script>
+
+    </body>
+
+</html>

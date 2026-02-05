@@ -1,0 +1,23 @@
+
+
+.valido{
+    color:aquamarine;
+    font-weight: bold;
+}
+
+.no_valido{
+    color:rebeccapurple;
+    font-weight: bold;
+}
+
+#contador {
+    font-weight: bold;
+}
+    .rojo {
+        color: red;
+    }
+
+    .normal {
+        color: black;
+    }
+

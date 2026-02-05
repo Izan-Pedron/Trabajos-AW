@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicios pre-examen</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Ejercicio 3 - Contador de caracteres</h1>
+
+        <textarea id="texto" rows="5" cols="40"
+            placeholder="Escribe algo (max recomendado: 100 caracteres)">
+        </textarea>
+
+        <p>caracteres: <span id="contador" class="normal"> 0 </span></p>
+
+        <script>
+            const texto = document.getElementById ("texto");
+            const contador = document.getElementById ("contador");
+
+            texto.addEventListener("input", function() {
+                const longitud = texto.value.length;
+                contador.textContent = longitud;
+
+                contador.classList.remove("normal", "rojo");
+
+                if(longitud > 100) {
+                    contador.classList.add("rojo")
+                } else {
+                    contador.classList.add("normal")
+                }
+
+            });
+
+        </script>
+    </body>
+
+</html>

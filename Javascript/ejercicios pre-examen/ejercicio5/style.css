@@ -1,0 +1,17 @@
+
+
+.valido{
+    color:aquamarine;
+    font-weight: bold;
+}
+
+.no_valido{
+    color:rebeccapurple;
+    font-weight: bold;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+}
+
